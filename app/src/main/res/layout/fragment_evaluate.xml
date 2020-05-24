@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    tools:context=".fragment.EvaluateFragment">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="体质阶段评估"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:textSize="15dp"
+        android:text="接下来，会通过几个简单的问题来评估评估你当前的身体素质处于哪一个阶段，以便于为你推荐最合适的智能计划。"/>
+    <Button
+        android:id="@+id/start_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="开始评估"
+        style="@style/button_nomal_style"/>
+
+
+</RelativeLayout>
